@@ -1,0 +1,610 @@
+@font-face {
+    font-family: 'Styrene A Web';
+    font-weight: 800;
+    font-style: black;
+    src:
+        url('font/StyreneAWeb-Black') format('woff2'),
+        url('font/StyreneAWeb-Black') format('woff');
+}
+
+@font-face {
+    font-family: 'Styrene A Web';
+    font-weight: 400;
+    font-style: normal;
+    src:
+        url('font/StyreneAWeb-Regular') format('woff2'),
+        url('font/StyreneAWeb-Regular') format('woff');
+}
+
+#year {
+    margin-left: 60px;
+    margin-bottom: 5px;
+    margin-top: 18px;
+}
+
+#about {
+    margin-left: 60px;
+    margin-bottom: 0;
+    margin-top: -491px;
+}
+
+#about2 {
+    margin-left: 60px;
+    margin-bottom: 0;
+    margin-top: 7px;
+}
+
+#about3 {
+    margin-left: 120px;
+    margin-bottom: 0;
+    margin-top: 60px;
+}
+
+#about4 {
+    margin-left: 60px;
+    margin-bottom: 0;
+    margin-top: 0px;
+    padding-top: 5px;
+}
+
+#skate {
+    margin-left: 50px;
+    margin-top: 5%;
+}
+
+.horizontalLine {
+    border-color: #24FF00;
+    width: auto;
+    margin-left: 75px;
+    position: absolute;
+    top: 26px;
+    left: 50px;
+    right: 166px;
+}
+
+h2 {
+    color: #24FF00;
+    font-family: 'Styrene A Web';
+    font-style: regular;
+    font-weight: 400;
+}
+
+#grotesk {
+    position: absolute;
+    right: 60px;
+    top: 0;
+    margin-top: 19px;
+}
+
+#nositeli {
+    text-align: right;
+    margin-right: 50px;
+    padding-right: 10px;
+    margin-top: 8px;
+}
+
+.back {
+    position: relative;
+    width: auto;
+    background-color: black;
+    height: 491px;
+    border-top: 2px solid #24FF00;
+    border-bottom: 2px solid #24FF00;
+    margin-top: -70px;
+    z-index: 99997;
+}
+
+.back2 {
+    border-bottom: 2px solid #24FF00;
+    height: 858px;
+}
+
+.back4 {
+    margin-bottom: 0;
+}
+
+.back5 {
+    width: 100%;
+    height: 867px;
+    background-color: #000000;
+    margin-top: -6px;
+    border-bottom: 2px solid #24FF00;
+}
+
+.back6 {
+    width: 100%;
+    height: 650px;
+    background-color: #000000;
+    margin-top: -6px;
+    /*border-bottom: 2px solid #24FF00;*/
+}
+
+.back7 {
+    width: 100%;
+    height: 870px;
+    background-color: #000000;
+    margin-top: -6px;
+    border-bottom: 2px solid #24FF00;
+}
+
+.back8 {
+    border-bottom: 2px solid #24FF00;
+}
+
+.back9 {
+    border-bottom: 2px solid #24FF00;
+    height: 350px;
+}
+
+.footer {
+    border-top: 2px solid #24FF00;
+    height: 180px;
+    margin-top: -400px;
+    border-bottom: 2px solid #24FF00;
+}
+
+#footerdiv {
+    margin-top: -180px;
+    padding-top: 10px;
+    margin-left: 200px;
+}
+
+#hse {
+    margin-top: -188px;
+    margin-left: 1080px;
+    width: 400px;
+    padding-bottom: 15px;
+}
+
+#about5 {
+    margin-left: 60px;
+}
+
+#cards {
+    width: 74%;
+    padding-left: 180px;
+    padding-top: 60px;
+}
+
+#cardsdiv {
+    margin-top: -2px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 200px;
+    border: 2px solid #24FF00;
+    padding-bottom: 90px;
+}
+
+
+.horizontalLineTop {
+    width: auto;
+    position: absolute;
+    border-color: #24FF00;
+    margin: 0px;
+    z-index: 999999;
+    top: 53px;
+    right: 0;
+    left: 0;
+}
+
+.horizontalLineTop1 {
+    width: auto;
+    border-color: #24FF00;
+    margin: -20px;
+    z-index: 999998;
+}
+
+#horizontalLineSpecial1 {
+    width: auto;
+    border-color: #24FF00;
+    margin-top: 80px;
+    z-index: 999998;
+}
+
+#horizontalLineSpecial2 {
+    width: auto;
+    border-color: #24FF00;
+    margin-top: -208px;
+    z-index: 999998;
+}
+
+#horizontalLineSpecial3 {
+    width: auto;
+    border-color: #24FF00;
+    margin-top: 130px;
+    z-index: 999998;
+    margin-bottom: 0;
+}
+
+#verticalLineR1 {
+    border-right: 2px solid #24FF00;
+    width: 484px;
+    height: 960px;
+    margin-top: -790px;
+}
+
+#verticalLineR2 {
+    border-right: 2px solid #24FF00;
+    width: 645px;
+    height: 960px;
+    margin-top: -960px;
+}
+
+#letters {
+    width: 101%;
+    margin-left: -6px;
+}
+
+#verticalLineR3 {
+    border-right: 2px solid #24FF00;
+    width: 998px;
+    height: 960px;
+    margin-top: -960px;
+}
+
+#r {
+    margin-left: 98px;
+    margin-top: -188px;
+}
+
+#fj {
+    font-family: 'Styrene A Web';
+    font-style: regular;
+    font-weight: 600;
+    font-size: 40px;
+    color: #FF3D00;
+    letter-spacing: 41px;
+    margin-left: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#fjr {
+    font-family: 'Styrene A Web';
+    font-style: regular;
+    font-weight: 600;
+    font-size: 40px;
+    color: #FF3D00;
+    letter-spacing: 48px;
+    margin-left: 70px;
+    margin-top: 0px;
+}
+
+#fjrt {
+    font-family: 'Styrene A Web';
+    font-style: regular;
+    font-weight: 600;
+    color: #24FF00;
+    width: 440px;
+    position:absolute;
+    margin-top: -160px;
+    margin-left: 1020px;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+
+}
+
+.verticalLineLeft {
+    border-right: 2px solid #24FF00;
+    width: 50px;
+    position: absolute;
+    height: 7440px;
+    z-index: 999999;
+    top: -20px;
+    bottom: -20px;
+}
+
+.verticalLineRight {
+    border-left: 2px solid #24FF00;
+    height: 7440px;
+    width: 50px;
+    position: absolute;
+    z-index: 999999;
+    top: -20px;
+    bottom: -20px;
+    right: 0;
+}
+
+.verticalLine3 {
+    border-right: 2px solid black;
+    width: 65%;
+    height: 491px;
+    margin-top: 0;
+    z-index: 10000000000000;
+    position: absolute;
+    top: 0;
+}
+
+.verticalLine4 {
+    border-right: 2px solid #24FF00;
+    width: 65%;
+    height: 867px;
+    margin-top: -60px;
+    z-index: 10000000000000;
+}
+
+.verticalLine5 {
+    border-right: 2px solid #24FF00;
+    width: 65%;
+    height: 878px;
+    margin-top: -60px;
+    z-index: 10000000000000;
+}
+
+#linenositeli {
+    width: auto;
+    border-color: #24FF00;
+    margin-left: 998px;
+    margin-top: -1985px;
+}
+
+#totebag {
+    align-self: center;
+    justify-content: center;
+    padding-left: 27%;
+    width: 45%;
+    padding-top: 30px;
+}
+
+#totebagdiv {
+    border-radius: 200px;
+    border: 2px solid #24FF00;
+    padding: 50px;
+    width: 846px;
+    margin-left: 50px;
+    position: relative;
+    top: -867px;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    height: 765px;
+}
+
+#china {
+    align-self: center;
+    justify-content: center;
+    padding-left: 70px;
+    width: 45%;
+    padding-top: 135px;
+    width: 340px;
+}
+
+#chinadiv {
+    padding: 0px;
+    width: 383px;
+    margin-left: 998px;
+    position: relative;
+    top: -1734px;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    height: 764px;
+}
+
+#styrene1 {
+    width: calc(100% - 100px);
+    margin: -40px 50px 0 50px;
+}
+
+#styrene2 {
+    width: calc(100% - 100px);
+    margin: -95px 50px 0 50px;
+}
+
+#glasses {
+    right: 50px;
+    top: 55px;
+    position: absolute;
+    width: 80%;
+}
+
+.youth {
+    position: absolute;
+    writing-mode: vertical-rl;
+    font-family: 'Styrene A Web';
+    font-style: regular;
+    font-weight: 800;
+    color: #000000;
+    z-index: 9999999;
+    letter-spacing: 50px;
+    top: 380px;
+    left: 1250px;
+}
+
+#backrectangle {
+    width: auto;
+    margin-left: 42px;
+    margin-right: 50px;
+    z-index: 1;
+    height: 100%;
+}
+
+#text {
+    font-family: 'Styrene A Web';
+    font-style: regular;
+    font-weight: 600;
+    color: black;
+    position: absolute;
+    top: 0;
+    margin-top: 30px;
+    margin-left: 68%;
+    margin-right: calc(2% + 50px);
+}
+
+#specialities {
+    margin-left: 60px;
+    margin-top: 6px;
+}
+
+#nositeli2 {
+    margin-left: 180px;
+    margin-top: 6px;
+}
+
+#proporci {
+    text-align: right;
+    margin-top: -60px;
+    margin-right: 60px;
+}
+
+#details {
+    text-align: right;
+    margin-top: -60px;
+    margin-right: 60px;
+}
+
+#history {
+    text-align: right;
+    margin-top: -60px;
+    margin-right: 60px;
+}
+
+#history2 {
+    text-align: right;
+    margin-top: -60px;
+    margin-right: 120px;
+}
+
+#special {
+    position: relative;
+    width: 985px;
+    border-color: #24FF00;
+    top: -33px;
+    margin-left: 340px;
+}
+
+#special1 {
+    position: relative;
+    width: 1035px;
+    border-color: #24FF00;
+    top: -33px;
+    margin-left: 340px;
+}
+
+#special2 {
+    position: relative;
+    width: 1163px;
+    border-color: #24FF00;
+    top: -33px;
+    margin-left: 193px;
+    margin-top: 20px;
+}
+
+#special3 {
+    position: relative;
+    width: 630px;
+    border-color: #24FF00;
+    top: -33px;
+    margin-left: 360px;
+    margin-top: 20px;
+}
+
+#special4 {
+    position: relative;
+    width: 580px;
+    border-color: #24FF00;
+    top: -33px;
+    margin-left: 190px;
+    margin-top: 20px;
+}
+
+#imgnositeli2 {
+    width: 600px;
+    margin-top: -750px;
+    margin-left: 220px;
+    padding-top: 0;
+    position: absolute;
+}
+
+#coffee {
+    /*position: absolute;
+    margin-top: -750px;
+    margin-left: 1090px;*/
+    padding: 80px;
+}
+
+#coffeediv {
+    position: absolute;
+    margin-top: -870px;
+    margin-left: 998px;
+    border-radius: 200px;
+    border: 2px solid #24FF00;
+    width: 483px;
+    height: 865px;
+}
+
+#f {
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+#glyphs {
+    margin-left: 125px;
+}
+
+#glyphsold {
+    margin-left: 395px;
+}
+
+#phistory {
+    font-family: 'Styrene A Web';
+    font-style: regular;
+    font-weight: 600;
+    color: #24FF00;
+    width: auto;
+    position:absolute;
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+#creatorsdiv {
+    width: 60%;
+    border-right: 2px solid #24FF00;
+    height: 350px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: -100px;
+    padding-top: 0;
+}
+
+#creators {
+    text-align: right;
+    margin-top: -60px;
+    margin-right: 8px;
+}
+
+#creator {
+    font-weight: 800;
+    text-align: right;
+    margin-right: 8px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin: 0 8px 0 0;
+}
+
+#creatorlast {
+    font-weight: 800;
+    text-align: right;
+    margin-right: 8px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin: 0 8px 0 0;
+}
+
+#gum {
+    margin-left: 1000px;
+    width: 400px;
+    margin-top: -700px;
+    padding-bottom: 78px;
+}
+
+#caution {
+    margin-left: -300px;
+    margin-top: -800px;
+    z-index: 9999999;
+}
